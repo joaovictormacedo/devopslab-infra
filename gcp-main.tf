@@ -7,7 +7,7 @@ resource "google_compute_instance" "firstvm" {
   # Defini a Imagem da VM
   boot_disk {
     initialize_params {
-      image = "ubuntu-2004-focal-v20230213"
+      image = "projects/debian-cloud/global/images/debian-11-bullseye-v20231004"
     }
   }
 
